@@ -54,5 +54,54 @@ buttonEl5.addEventListener("click", (event) =>{
 			
 	let totalNum = document.getElementById("total");
     totalNum.innerHTML = "Total: $" + sum;
+    
+    let count = 0;
+	let applesNum = document.getElementById("apples");
+	for (i = 0; i < total.length; i++){
+		
+		let name1 = total[i].name;
+		if (name1 === "apple"){
+			count ++;
+		}
+		
+	}
+	applesNum.innerHTML = count + " apple(s)";
+	count=0;
+	let orangesNum = document.getElementById("oranges");
+	for (i = 0; i < total.length; i++){
+		
+		let name1 = total[i].name;
+		if (name1 === "orange"){
+			count ++;
+		}
+		
+	}
+	orangesNum.innerHTML = count + " orange(s)";
+	
+	count=0;
+	let bananasNum = document.getElementById("bananas");
+	for (i = 0; i < total.length; i++){
+		
+		let name1 = total[i].name;
+		if (name1 === "banana"){
+			count ++;
+		}
+		
+	}
+	
+	bananasNum.innerHTML = count + " banana(s)";
+	
+	let toastersNum = document.getElementById("toasters");
+	
+	count=0;
+	for (i = 0; i < total.length; i++){
+		
+		let name1 = total[i].name;
+		if (name1 === "toaster"){
+			count ++;
+		}
+		
+	}
+	toastersNum.innerHTML = count + " toaster(s)";
     }
 );
