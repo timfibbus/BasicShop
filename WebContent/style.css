@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+.front{
+	background-image: url("applez.jpg"); 
+	background-repeat: repeat;
+	opacity:0.8;
+}
+.back{
+	background-image: url("bananaz.jpg");
+	background-repeat: repeat;
+	opacity: 0.65;
+}
+.orange{
+	background-image: url("orangez.jpg");
+	background-repeat: repeat;
+	opacity:0.73;
+}
+.toaster{
+	background-image: url("toaster.jpg");
+	background-repeat: repeat;
+	opacity:0.7
+}
+.bananz{
+	background-image: url("grnbananaz.jpg");
+	background-repeat: repeat;
+	opacity:0.7
+}
+.welcom{
+	background-image: url("welcom.jpg");
+	background-repeat: repeat;
+	opacity:0.75;
+}
+.text{
+	opacity: 0.9;
+}
+
+.full{
+	opacity: 1.3;
+}
+
